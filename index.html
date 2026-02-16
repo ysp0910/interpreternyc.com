@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interpreter NYC</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    color: #111;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.hero-text {
+    max-width: 55%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn.black {
+    background: #111;
+    color: #fff;
+}
+
+.section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column h3 {
+    font-size: 20px;
+}
+
+.column ul {
+    padding-left: 18px;
+    line-height: 1.6;
+}
+
+.why ul {
+    padding-left: 18px;
+}
+
+.languages {
+    padding: 40px 0;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: right;
+}
+
+@media(max-width: 900px) {
+    .hero {
+        flex-direction: column;
+    }
+    .hero-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .columns {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">A | Я @interpreternyc</div>
+        <div class="nav-links">
+            <a href="#">Law Firms</a>
+            <a href="#">Applicants</a>
+            <a href="#">Interpreter Network</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero container">
+    <div class="hero-text">
+        <h1>Multilingual Interpretation Boutique</h1>
+        <p>powered by @interpreternyc</p>
+        <p>Accurate. Confidential. Trusted by Counsel.</p>
+
+        <div class="buttons">
+            <a href="#" class="btn black">For Law Firms</a>
+            <a href="#" class="btn">For Applicants</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <!-- сюда можно вставить изображение статуи -->
+        <img src="statue.jpg" alt="Statue" style="max-width:350px;">
+    </div>
+</section>
+
+<section class="section container">
+    <div class="columns">
+
+        <div class="column">
+            <h3>For Law Firms</h3>
+            <ul>
+                <li>Reliable interpreter support</li>
+                <li>Pre-interview preparation</li>
+                <li>Consistent terminology</li>
+                <li>Referral-first service</li>
+            </ul>
+            <a href="#" class="btn black">Learn More</a>
+        </div>
+
+        <div class="column">
+            <h3>For Applicants</h3>
+            <ul>
+                <li>Calm, clear communication</li>
+                <li>Preparation sessions available</li>
+                <li>Professional presence on interview day</li>
+            </ul>
+            <a href="#" class="btn black">Request an Interpreter</a>
+        </div>
+
+        <div class="column">
+            <h3>Interpreter Network</h3>
+            <ul>
+                <li>Selective vetting</li>
+                <li>Ongoing standards</li>
+                <li>Contract opportunities</li>
+            </ul>
+            <a href="#" class="btn black">Apply</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section container why">
+    <h3>Why interpreterNYC?</h3>
+    <ul>
+        <li>Immigration-focused</li>
+        <li>Preparation matters</li>
+        <li>Accuracy becomes record</li>
+        <li>Privacy always</li>
+    </ul>
+</section>
+
+<section class="languages container">
+    <h3>Languages We Cover</h3>
+    <p>Russian · Georgian · Azerbaijani · Ukrainian</p>
+</section>
+
+<footer class="container">
+    © 2026 Interpreter NYC
+</footer>
+
+</body>
+</html>
